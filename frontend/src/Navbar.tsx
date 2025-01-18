@@ -11,10 +11,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
   const navigate = useNavigate();
 
-  const navItems = [
-    { name: "Add user", href: "/adduser" },
-    { name: "Edit user", href: "/edituser" },
-  ];
+  const navItems = [{ name: "Add user", href: "/adduser" }];
 
   return (
     <nav className="bg-white shadow-xl">
